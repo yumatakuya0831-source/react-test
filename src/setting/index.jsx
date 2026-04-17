@@ -233,10 +233,9 @@ export default function App() {
     <div className="app">
       <div className="phone-frame">
         <header className="app-header">
-          <div className="team-title">⚾ 南町ファイターズ</div>
+          <div className="team-title">⚾ 川口レッドボーイズ</div>
           <div className="team-subtitle">配車アプリ設定</div>
         </header>
-
         <main className="content">
           <section className="card form-card">
             <h2 className="section-title">選手登録</h2>
@@ -320,7 +319,7 @@ export default function App() {
                   type="text"
                   value={carName}
                   onChange={(e) => setCarName(e.target.value)}
-                  placeholder="例：佐藤家ミニバン"
+                  placeholder="例：佐藤車"
                 />
               </div>
 
@@ -331,7 +330,7 @@ export default function App() {
                   type="text"
                   value={driverName}
                   onChange={(e) => setDriverName(e.target.value)}
-                  placeholder="例：佐藤 健一"
+                  placeholder="例：佐藤父"
                 />
               </div>
 
@@ -403,6 +402,7 @@ export default function App() {
                 </div>
               ))
             )}
+            <button className="back-button">戻る</button>
           </section>
         </main>
       </div>
