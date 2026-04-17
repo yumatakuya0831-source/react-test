@@ -1,7 +1,6 @@
-// ===== App.jsx =====
 import React, { useEffect, useState } from "react";
 import "./style.css";
-import { db } from "./firebase";
+import { db } from "../../lib/firebase";
 import {
   collection,
   addDoc,
